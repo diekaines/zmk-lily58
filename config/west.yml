@@ -3,7 +3,7 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: tanichangelcdtext
-      url-base: https://github.com/zmkfirmware	  
+      url-base: https://github.com/diekaines/tanichangelcdtext	  
   projects:
     - name: zmk
       remote: tanichangelcdtext
