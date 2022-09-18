@@ -2,11 +2,9 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: tanichangelcdtext
-      url-base: https://github.com/diekaines
   projects:
     - name: zmk
-      remote: tanichangelcdtext
+      remote: zmkfirmware
       revision: main
       import: app/west.yml
   self:
