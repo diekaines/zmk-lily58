@@ -1,0 +1,12 @@
+  remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    - name: tanichangelcdtext
+      url-base: https://github.com/diekaines
+  projects:
+    - name: zmk
+      remote: tanichangelcdtext
+      revision: main
+      import: app/west.yml
+  self:
+    path: config
